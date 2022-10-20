@@ -1,0 +1,117 @@
+h1 {
+    color: brown;
+    text-align: center;
+    margin-top: 100px;
+}
+img {
+    width: 100%;
+}
+#btn {
+    display: flex;
+    justify-content: flex-end;
+}
+body {
+    background-image: url(https://cafefcdn.com/203337114487263232/2021/8/28/-16301198576252002110469.jpg)}
+.modal {
+    margin: 70px auto;
+    width: 30%;
+    background-color: white;
+    height: fit-content;
+}
+#container {
+    display: flex;
+justify-content: flex-end;}
+   
+
+.modal-header {
+    background-color: brown;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+.modal-footer button {
+    background-color: brown;
+    color: aliceblue;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-body input {
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 8px;
+    border-color: aliceblue;
+}
+
+.close {
+    color: black;
+}
+
+#row_item {
+    border: 1px solid greenyellow;
+    border-collapse: collapse;
+    width: 30%;
+    height: fit-content;
+
+}
+
+label {
+    width: 150px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 130px;
+    text-align: center;
+}
+
+.form_row {
+    display: flex;
+    justify-content: space-evenly;
+    display: none;
+}
+
+table {
+    display: none;
+}
+
+.user_info {
+    position: absolute;
+    display: flex;
+    top: 30px;
+    right: 50px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.action_user {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.user_info p {
+    margin-right: 5px !important;
+    margin: auto 0;
+}
+
+#ava {
+    background-color: #000 ;
+    border-radius: 99px;
+    width: 44px;
+    height: 44px;
+}
